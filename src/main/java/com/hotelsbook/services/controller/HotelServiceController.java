@@ -17,7 +17,7 @@ import com.hotelsbook.services.dto.HotelServicesDTO;
 import com.hotelsbook.services.response.ErrorResponse;
 import com.hotelsbook.services.service.HotelService;
 
-@CrossOrigin(origins = "http://localhost:4200/")
+@CrossOrigin(origins = "https://orange-ocean-00187bf0f.2.azurestaticapps.net")
 @RestController
 @RequestMapping("/api/hotels")
 public class HotelServiceController {
